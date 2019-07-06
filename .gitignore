@@ -28,6 +28,7 @@ exercises/prtime
 exercises/sizepipe
 exercises/vfork3
 exercises/zombie
+exercises/getpw44bsd
 filedir/access
 filedir/cdpwd
 filedir/changemod
