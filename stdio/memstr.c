@@ -1,3 +1,4 @@
+// gcc -o memstr memstr.c -I ../include/ -L ../lib/ -lapue
 #include "apue.h"
 
 #define BSZ 48
