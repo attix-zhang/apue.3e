@@ -14,9 +14,9 @@ int main() {
 
     for (i = 0; i < 10; i++) {
         fprintf(fp, "hello, world");
-        printf("current buf address: %p, current buf size: %ld, current buf content:%s\n", buf, (long)strlen(buf), buf);
+        printf("current buf address: %p, buf size: %ld, buf content:%s\n", buf, (long)strlen(buf), buf);
         fflush(fp);
-        printf("fflush buf address: %p, current buf size: %ld, current buf content:%s\n", buf, (long)strlen(buf), buf);
+        printf("fflush buf address: %p, buf size: %ld, buf content:%s\n", buf, (long)strlen(buf), buf);
     }
     return (0);
 }
