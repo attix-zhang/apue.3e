@@ -1,4 +1,4 @@
-// gcc -o open_memstream open_memstream.c -I ../include/ -L ../lib/ -lapue
+// gcc -o open_memstream.o open_memstream.c -I ../include/ -L ../lib/ -lapue
 #include "apue.h"
 
 int main() {
