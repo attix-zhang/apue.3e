@@ -2,7 +2,7 @@ ROOT=..
 PLATFORM=$(shell $(ROOT)/systype.sh)
 include $(ROOT)/Make.defines.$(PLATFORM)
 
-PROGS =	strftime get_groups iter_group
+PROGS =	strftime strptime get_groups iter_group uname gethostname
 
 all:	$(PROGS) getpwnam.o
 
